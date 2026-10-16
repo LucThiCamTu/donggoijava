@@ -4,22 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.codegym.app</groupId>
-    <artifactId>calculator-app</artifactId>
-    <version>1.0.0</version>
+    <groupId>com.codegym.utils</groupId>
+    <artifactId>math-lib</artifactId>
+    <version>2.0.0</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <!-- Nhúng thư viện math-lib vừa đóng gói ở Bước 3 -->
-        <dependency>
-            <groupId>com.codegym.utils</groupId>
-            <artifactId>math-lib</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-    </dependencies>
 </project>
